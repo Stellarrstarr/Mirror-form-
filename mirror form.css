@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3ab682;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card {
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    outline: none;
+}
+
+.input-field:hover {
+    border-bottom: 2px solid rgb(6, 119, 76);
+}
+
+.input-field::placeholder {
+    color: rgba(49, 47, 47, 0.7);
+}
+
+.address {
+    resize: vertical;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn input {
+    padding: 3px 5px;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    background-color: #3ab682;
+    color: #fff;
+}
